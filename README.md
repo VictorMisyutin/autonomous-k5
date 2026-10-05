@@ -88,7 +88,7 @@ A simplified schematic of the parts used in part 1, drawn in KiCad. The symbol l
 
 ## Running it
 
-On the Pi, set up the PiCar-X and Robot HAT libraries with [SunFounder's guide](https://docs.sunfounder.com/projects/picar-x/en/latest/), then:
+On the Pi, set up the PiCar-X and Robot HAT libraries with [SunFounder's guide](https://docs.sunfounder.com/projects/picar-x-v20/en/latest/python/install_all_modules.html), then:
 
 ```bash
 sudo apt install python3-picamera2
