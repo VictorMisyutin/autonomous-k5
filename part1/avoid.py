@@ -23,7 +23,7 @@ if __name__ == "__main__":
     try:
         while True:
 
-            distan`ce_from_obj = px.get_distance()
+            distance_from_obj = px.get_distance()
             print(f"distance: {distance_from_obj}")
 
             if distance_from_obj >= SOFT_TOLERANCE or (distance_from_obj == -2 and last_distance > 150):
@@ -64,6 +64,6 @@ if __name__ == "__main__":
     except Exception as e:
         print(e)
     finally:
-        px.stop();
+        px.stop()
 
 
